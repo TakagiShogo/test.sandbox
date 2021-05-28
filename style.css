@@ -1,0 +1,351 @@
+body{
+	font-family: yugothic,"游ゴシック","メイリオ",Meiryo,"ヒラギノ角ゴ","Hiragino Kaku Gothic Pro",sans-serif;
+	background: #fff;
+	font-size: 20px
+}
+
+p{
+	font-size: 15px;
+}
+
+h1,h2{
+	font-weight: bold;
+	color:green;
+}
+
+.title{
+	padding:30px 30px;
+}
+
+h3{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color:green;
+}
+
+div{
+	padding-left: 5%;
+	padding-right: 5%;
+	border:solid 1px #000;
+}
+
+table th{
+	padding:20px 10px;
+	background-color: lightgreen;
+}
+
+table td{
+	padding: 20px 10px;
+	background-color: lightgrey;
+}
+
+.hikaku{
+	text-align: center;
+}
+
+.hidden p{
+	line-height: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 20px 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+	.hidden{display: none}
+}
+
+.flortright{
+	width: 400px;
+	height: auto;
+	float: right;
+}
+.business-person0{
+    background-color: #baf7c9;
+
+}
+
+.business-person{
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	text-align: center;
+
+}
+
+.business{
+    margin-bottom: 20px;
+	width: 400px;
+	height: 100px;
+	background-color: #fff;
+	border:solid 5px #11a411;
+	border-radius: 5px;
+}
+
+.business p{
+	padding-top: 15px;
+	font-size:17px;
+
+}
+
+@media screen and (max-width: 768px) {
+	.smallimg{
+		width: 100px;
+	    height: 100px;
+		margin:10px 20px;
+		float: left;
+	}
+	.service{
+		margin: 20px 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-weight: bold;
+		color: #fff;
+		border: solid 1px  #11a411;
+	    background-color: #11a411;
+	    border-radius: 50px;
+	}
+	.service p{
+		padding: 20px 10px;
+		font-size: 20px;
+
+	}
+
+}
+
+
+.dxservice{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.dxservice2{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:769px){
+	.service{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-weight: bold;
+		color: #fff;
+		min-width: 250px;
+		height:auto;
+		border: solid 1px  #11a411;
+		background-color: #11a411;
+		border-radius: 50%;
+	}
+
+
+	.smallimg{
+		margin-bottom: 30px;
+		max-width: 100px;
+		max-height: 100px;
+	}
+}
+
+
+.dxspec{
+	padding-top:70px;
+}
+
+
+.specialcontent{
+	text-align: center;
+	display: flex;
+	justify-content:space-between;
+	align-self: stretch;
+}
+
+.special{
+    margin:10px 40px;
+	border: solid 5px #baf7c9;
+	min-width: 350px;
+	height: 200px;
+}
+
+.special p{
+	margin-top: 30px;
+	font-size: 14px;
+	text-align: left;
+}
+
+.redbtn{
+	background-color: tomato;
+	color: white;
+	width: 400px;
+	height: 60px;
+	border-radius:30px; 
+}
+
+.space{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.flortimg{
+	margin-right: 50px;
+	width: 60px;
+	height: auto;
+	float: left;
+}
+
+.useimage-in{
+	padding-left: 10%;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.useimage h2{
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}
+
+.useimage p{
+	font-size: 17px;
+}
+
+.jidori{
+	width: 150px;
+	height: auto;
+	/*float: left;*/
+}
+
+.center{
+	text-align: center;
+}
+
+.bg-green{
+	padding: 20px 10px;
+	background-color: lightgreen;
+}
+
+.profi{
+	padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+	.mini-circle{
+	position: relative;
+	top: -20px;
+	left:-20px;
+	float: left;
+  	font-weight: bold;
+	text-align: center;
+	color: white;
+	width: 70px;
+	height: 70px;
+	background-color: green;
+	border-radius: 50%;
+	border:solid 5px lightgreen;
+
+   }
+   .circle{
+
+   	margin-bottom: 100px;
+	width: 500px;
+	height: 150px;
+	background-color: lightgreen;
+	border-radius: 50px;
+   }
+   .circleimg{
+   	float: left;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+   }
+
+	.circle-in{
+		position: relative;
+		top: 30px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.circle-in p{
+		position: relative;
+		top: 30px;
+	}
+
+	.circle-out{
+		position: relative;
+		top: 35px;
+		left:40px;
+		color: green;
+		font-weight: bold;
+		padding-top: 100px;
+	}
+	.dounyu{
+	padding:5% 5%;
+	
+
+   }
+
+}
+@media screen and (min-width: 769px){
+	.mini-circle{
+		padding-top: 5px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+		width: 70px;
+		height: 70px;
+		background-color: green;
+		border-radius: 50%;
+		border:solid 5px lightgreen;
+
+	}
+
+	.circle{
+		max-width: 300px;
+		max-height: 300px;
+		background-color: lightgreen;
+		border-radius: 50%;
+	}
+
+	.circle-in{
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.circle-out{
+		color: green;
+		font-weight: bold;
+		padding-top: 100px;
+	}
+
+	.circleimg{
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+	}
+
+	.dounyu{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.qandatop{
+	margin-top: 200px;
+}
+
+.qanda{
+	padding: 10px 20px;
+	border: solid 5px lightgreen;
+	margin-bottom: 40px;
+}
+
+.qandaimg{
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+
+.qanda-box{
+
+}
